@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
+// 列表由于数组
 // List-based Chooser - typesafe (Page 129)
 public class Chooser<T> {
     private final List<T> choiceList;
